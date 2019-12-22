@@ -1,0 +1,22 @@
+{
+  "name": "MernApp",
+  "version": "1.0.0",
+  "description": "After trying to build out an app with lots of view updates in rails and javascript it became apparent that it was not the right tool for the job. Trying again with a MERN stack and this package: https://github.com/Hellenic/react-hexgrid",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "app": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.8.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
