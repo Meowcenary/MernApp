@@ -96,6 +96,24 @@ db.system.users.update({user: "Guru99"}, {$set:{user: "eric"}})
 ```
 db.deleteUser()
 ```
+
+Official definition of getUsers()
+```
+db.getUsers({
+   showCredentials: <Boolean>,
+   filter: <document>
+})
+```
+
+Example of getUsers() with a filter to find the user with name 'mernapp'
+```
+db.getUsers({showCredentials: false, filter{user: 'mernapp'}})
+```
+
+### Localhost MongoDB
+
+...
+
 ### Mongoose
 
 ...
